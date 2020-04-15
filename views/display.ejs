@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <table border="1">
+        <thead>
+            <th>id</th>
+            <th>text</th>
+            <th>source</th>
+            <th>idauteur</th>
+            <th>Action</th>
+            
+        </thead>
+        <tbody>
+           <% if(data.length > 0){ %>
+               <% data.forEach(function(row){ %>
+                    <tr>
+                        <td><%= row.id %></td>
+                        <td><%= row.Texte %></td>
+                        <td><%= row.Source %></td>
+                        <td><%= row.Id_Auteur %></td>
+                        <td><a href="/apis/citation/delete/<%= row.id %>">delete</a></td>
+                    </tr>
+               <% }) } else{ %>
+                    <tr>
+                        <td colspan="4">DATA NOT FOUNT</td>
+                    </tr>
+            <% } %>
+           
+        </tbody>
+    </table>
+
+
+</body>
+</html>

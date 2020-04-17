@@ -1,6 +1,7 @@
 body{
     margin: 4%;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 label {
     color: blue;
@@ -30,9 +31,10 @@ table{
 background-image: url(../pictures/209216539.jpg);
 }
 th {
-    color: rgb(197, 139, 4);
+    color:#0a69c6;
     background-color: cornsilk;
 }
 tbody {
-background-color: rgb(245, 244, 243);
+background-color: #2fdeef;
+text-align: center;
 }

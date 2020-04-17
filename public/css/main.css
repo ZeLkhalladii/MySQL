@@ -1,4 +1,38 @@
 body{
     margin: 4%;
-    /* background-color: #000; */
+
+}
+label {
+    color: blue;
+    margin-left: 10px;
+}
+input {
+    margin-left: 10px;
+    background-color: rgb(238, 237, 235);
+    border-color: rgb(255, 254, 253);
+    border-radius: 15%;
+    height: 30px;
+    margin-top: 10px;
+}
+button {
+    color: blue;
+    background-color: rgb(238, 237, 235);
+    border-color: rgb(255, 254, 253);
+    border-radius: 15%;
+    height: 30px;
+    margin-top: 10px; 
+    margin-left: 210px;   
+}
+table{
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 10px;
+background-image: url(../pictures/209216539.jpg);
+}
+th {
+    color: rgb(197, 139, 4);
+    background-color: cornsilk;
+}
+tbody {
+background-color: rgb(245, 244, 243);
 }

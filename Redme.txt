@@ -1,0 +1,32 @@
+installer Easyphp
+
+start http server
+
+open de module : MySQL Administration : PhpMyAdmin 4.7.0 
+
+phpMyAdmin : cree basse de données,
+
+
+Jour 2 ;
+
+-Création de nouveau projet NodeJS 
+ $ npm init
+ -Utilisation de ExpressJS pour gérer les routes, les ressources, les vues
+ $ npm i express 
+-Création des formulaires d'ajout et de modification (avec l'engin "ejs")
+ $ npm i ejs
+ -Initiation au langage SQL (pour lire, ajouter, modifier et supprimer des entrées de la base de données) 
+
+jour 3 ;
+
+-Faire la liaison entre MySQL
+ $ npm i mysql 
+Ressource suggérée : https://expressjs.com/en/guide/database-integration.html#mysql 
+-Tester les requêtes SQL dans l'application
+ -Application des opérations CRUD (Create, Read, Update, Delete) à partir des formulaires  
+
+Jour 4 :
+
+ Design de l'appli avec Bootstrap ou autre framework CSS du choix
+
+

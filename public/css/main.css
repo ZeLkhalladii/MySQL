@@ -1,19 +1,23 @@
-body{
-    margin: 4%;
+body {
+    margin: 10%;
     display: flex;
     flex-wrap: wrap;
 }
+
 label {
     color: blue;
-    margin-left: 10px;
+    margin-left: 55%;
 }
 input {
-    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55%;
     background-color: rgb(238, 237, 235);
     border-color: rgb(255, 254, 253);
     border-radius: 15%;
     height: 30px;
     margin-top: 10px;
+    width: 400px;
 }
 button {
     color: blue;
@@ -22,14 +26,17 @@ button {
     border-radius: 15%;
     height: 30px;
     margin-top: 10px; 
-    margin-left: 210px;   
+    margin-left: 55%;   
+    width: 200px;
 }
+
 table{
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 20%;
     padding: 10px;
 background-image: url(../pictures/209216539.jpg);
 }
+
 th {
     color:#0a69c6;
     background-color: cornsilk;
